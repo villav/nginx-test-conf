@@ -12,7 +12,7 @@
 ### Know how: ###
 1. Do modification to default.conf
 2. Test changes - run ```docker container exec nginx nginx -t```
-3. Apply changes - rn ```docker container exec nginx nginx  -s reload```
+3. Apply changes - run ```docker container exec nginx nginx  -s reload```
 4. Or just restart container
 
 
