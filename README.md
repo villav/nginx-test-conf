@@ -15,7 +15,8 @@
 3. Apply changes - run ```docker container exec nginx nginx  -s reload```
 4. Or just restart container
 
-
+### html/.htapswd for basic auth test ###
+user/user
 
 ### Just for fun: ###
 ```docker container exec {container name} nginx -t```
