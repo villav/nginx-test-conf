@@ -18,7 +18,14 @@
 ### html/.htapswd for basic auth test ###
 user/user
 
+### self-assigned certificate for 443
+* html/nginx-selfsigned.crt
+* html/nginx-selfsigned.key
+
 ### Just for fun: ###
 ```docker container exec {container name} nginx -t```
 
 [Docker exec manual](https://docs.docker.com/engine/reference/commandline/exec/)
+
+### Ports 80 and 443 available ###
+Listen on 80 and 443
